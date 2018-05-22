@@ -1,0 +1,254 @@
+*{font-family: 微軟正黑體;}
+body{margin: 0;}
+.header{width: 100%;
+	height: 75vh;
+	background-color: #aaa;}
+.header .box{width: 100%;
+	height: 15%;
+	background-color:black;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center ;
+	background-image: url('img/use/header_box_cloud-01-01.jpg');
+	background-size:cover;
+	background-position:bottom}
+.header .logo{width: 10vh;
+	height: 10vh;
+	background-color: #987;
+	border-radius: 50%; 
+	float: left;}
+.header .btnL{width: 200px;
+	height: 50px;
+	background-color:rgba(255,255,255,0.1);
+	float: left;	
+	position:relative;}
+.header .btnL h1{line-height: 0;
+	color: #000;
+	position: absolute;
+	top:calc(50% - 21px);
+	left: calc(50% - 64px);}
+.header .btnR{width: 200px;
+	height: 50px;
+	background-color:rgba(255,255,255,0.1);
+	float: left;
+	position:relative;}
+.header .btnR h1{line-height: 0;
+	color: #000;
+	position: absolute;
+	top:calc(50% - 21px);
+	left: calc(50% - 64px);}
+.header .pic{width: 100%;
+	height:85%;
+	background-color: #456;
+	background-image: url('img/use/header_pic_temple-02-02.jpg');
+	background-size:cover;
+	background-position:top;}
+
+
+
+.main{width: 80%;
+	height: 550vh;
+	background-color: #789;
+	margin: 0 auto;}
+.main .box{width:calc(100% - 40px);
+	padding:10px 20px;
+	background-color: #ccc;}
+
+
+.main .box1{height: calc(15% - 20px);
+	position: relative;
+	}
+.main .box1 .pic{width: calc(100% - 40px);
+	height: calc(100% - 40px);
+	background-color: #aaa;
+	padding: 20px;
+	background-image: url('img/use/box1pic.jpg');
+	background-size: cover;
+	background-position:top;}
+.main .box1 .pic .cover{width: calc(100% - 40px);
+	height: calc(100% - 40px);
+	background-color:rgba(255,255,255,0.2);
+	padding: 20px;}
+.main .box1 .pic .cover h1{line-height: 0;
+	color: #000;
+	position: absolute;
+	top:calc(50% - 21px);
+	left: calc(50% - 64px);}
+.main .box1 .pic .cover p{}
+
+
+
+.main .box2{height: calc(50% - 20px);}
+.main .box2 h1{text-align: center;}
+.main .box2 .God1,.God3{
+	width:calc(50% - 5px);
+	height: calc(24% - 5px) ;
+	background-color: white;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;}
+.main .box2 .God2,.God4{
+	width: calc(50% - 5px);
+	height: calc(24% - 5px);
+	background-color: white;
+	float: left;
+	margin-bottom: 10px;}
+.main .box2 .God1 .pic,.God2 .pic,.God3 .pic,.God4 .pic{width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position:top;
+	position: relative;}
+.main .box2 .God1 .pic{background-image: url('img/use/box2God1.jpg')}
+.main .box2 .God2 .pic{background-image: url('img/use/box2God2.jpg')}
+.main .box2 .God3 .pic{background-image: url('img/use/box2God3.jpg')}
+.main .box2 .God4 .pic{background-image: url('img/use/box2God4.jpg')}
+.main .box2 .God1 .pic .text,.God2 .pic .text,.God3 .pic .text,.God4 .pic .text{width: 100%;
+	height: 20%;
+	background-color: rgba(123, 123, 0, 0.5);
+	position: absolute;
+	bottom: 0;}
+.main .box2 .God5,.God7{
+	width: calc(25% - 5px);
+	height:calc(24% - 5px);
+	background-color: white;
+	float: left;
+	margin-bottom: 10px;}
+.main .box2 .God6{
+	width: calc(50% - 10px);
+	height:calc(24% - 5px);
+	background-color: white;
+	float: left;
+	margin-bottom: 10px;}
+.main .box2 .God8,.God9,.God10,.God11{
+	width: calc(25% - 7.5px);
+	height:calc(24% - 5px);
+	background-color: white;
+	float: left;
+	margin-bottom: 10px;}
+.main .box2 .God5,.God6,.God8,.God9,.God10{
+	margin-right: 10px;}
+.main .box2 .God5 .pic,.God6 .pic,.God7 .pic,.God8 .pic,.God9 .pic,.God10 .pic,.God11 .pic{
+	width: 100%;
+	height: 100%;
+	background-size:cover;
+	background-position:center;
+	position: relative;}
+.main .box2 .God5 .pic{background-image: url('img/use/box2God5.jpg')}
+.main .box2 .God7 .pic{background-image: url('img/use/box2God7.jpg')}
+.main .box2 .God9 .pic{background-image: url('img/use/box2God9.jpg')}
+.main .box2 .God10 .pic{background-image: url('img/use/box2God10.jpg')}
+.main .box2 .God11 .pic{background-image: url('img/use/box2God11.jpg')}
+.main .box2 .God5 .pic .text,.God6 .pic .text,.God7 .pic .text
+	,.God8 .pic .text,.God9 .pic .text,.God10 .pic .text,.God11 .pic .text{
+	width: 100%;
+	height: 20%;
+	background-color: rgba(123, 123, 0, 0.5);
+	position: absolute;
+	bottom: 0;}
+
+
+.main .box3{height: calc(15% - 20px);}
+.main .box3 .pic{width: calc(100% - 40px);
+	height: calc(100% - 40px);
+	background-color: #fff;
+	padding: 20px;
+	background-image: url('img/use/box3pic.jpg');
+	background-size:cover;
+	background-position:center;}
+.main .box3 .pic .cover{width: calc(100% - 40px);
+	height: calc(100% - 40px);
+	padding: 20px;
+	background-color:rgba(255,255,255,0.2);}
+.main .box3 h1{text-align: center;}
+.main .box3 .boxL .up h1,.boxMID .up h1,.boxR .up h1{
+	line-height: 0;
+	position: absolute;
+	top:calc(50% - 21px);
+	left: calc(50% - 48px);}
+.main .box3 .boxR .up h1{
+	line-height: 0;
+	position: absolute;
+	top:calc(50% - 21px);
+	left: calc(50% - 64px);}
+.main .box3 .boxL{width:calc(33% - 10px);
+	height:calc(85% - 70px);
+	background-color: white;
+	float: left;
+	margin-right: 20px;}
+.main .box3 .boxL .up{width: calc(100% - 40px);
+	height:calc( 25% - 40px);
+	background-color: #aaa;
+	padding: 20px;
+	position: relative;}
+.main .box3 .boxL .down{width: 100%;
+	height: 75%;
+	background-color: #555;}
+.main .box3 .boxMID{width:calc(34% - 20px);
+	height:calc(85% - 70px);
+	background-color: white;
+	float: left;
+	margin-right: 20px;}
+.main .box3 .boxMID .up{width: calc(100% - 40px);
+	height:calc( 25% - 40px);
+	background-color: #aaa;
+	padding: 20px;
+	position: relative;}
+.main .box3 .boxMID .down{width: 100%;
+	height: 75%;
+	background-color: #555;}
+.main .box3 .boxR{width:calc(33% - 10px);
+	height:calc(85% - 70px);
+	background-color: white;
+	float: left;}
+.main .box3 .boxR .up{width: calc(100% - 40px);
+	height:calc( 25% - 40px);
+	background-color: #aaa;
+	padding: 20px;
+	position: relative;}
+.main .box3 .boxR .down{width: 100%;
+	height: 75%;
+	background-color: #555;}
+
+
+
+.main .box4{height: calc(8% - 20px);}
+.main .box4 .screen{width: 100%;
+	height: 80%;
+	background-color: #fff;}
+
+
+.main .box5{height:calc(2% - 20px);}
+.main .box5 .btn1{width: calc(25% - 10px);
+	height: 40%;
+	background-color: #fff;
+	float: left;
+	margin-right: 10px;}
+.main .box5 .btn2{width: calc(25% - 10px);
+	height: 40%;
+	background-color: #fff;
+	float: left;
+	margin-right: 10px;}
+.main .box5 .btn3{width: calc(25% - 10px);
+	height: 40%;
+	background-color: #fff;
+	float: left;
+	margin-right: 10px;}
+.main .box5 .btn4{width: 25% ;
+	height: 40%;
+	background-color: #fff;
+	float: left;}
+.main .box6{height: calc(10% - 20px);}
+.main .box6 .text{width: calc(50% - 20px);
+	height: 80%;
+	background-color: #fff;
+	float: left;
+	margin-right: 20px;}
+.main .box6 .pic{width: calc(50% - 2px);
+	height:calc(80% - 2px);
+	background-color: #fff;
+	float: right;
+	border: solid 1px;}
+.footer{width: 100%;
+	height: 30vh;
+	background-color: #654;}
+
